@@ -14,3 +14,8 @@ I've been reading [Learn You a Haskell for Great Good!](http://learnyouahaskell.
 
     ./nato_phone_translator "Learn You a Haskell for Great Good"
     Lima Echo Alfa Romeo November [Space] Yankee Oscar Uniform [Space] Alfa [Space] Hotel Alfa Sierra Kilo Echo Lima Lima [Space] Foxtrot Oscar Romeo [Space] Golf Romeo Echo Alfa Tango [Space] Golf Oscar Oscar Delta
+
+### Using Docker
+
+    docker build -t nycjv321/nato_phone_translator .
+    docker run --rm  nycjv321/nato_phone_translator Learn You a Haskell for Great Good
